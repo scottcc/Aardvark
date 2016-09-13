@@ -34,7 +34,7 @@ NSString *const ARKScreenshotFlashAnimationKey = @"ScreenshotFlashAnimation";
 @end
 
 
-@interface ARKEmailBugReporter () <MFMailComposeViewControllerDelegate, UIAlertViewDelegate>
+@interface ARKEmailBugReporter () <MFMailComposeViewControllerDelegate, UIAlertViewDelegate, CAAnimationDelegate>
 
 @property (nonatomic) UIView *screenFlashView;
 
